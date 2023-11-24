@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2020.12.5"
+chardet = "==3.0.4"
+filestack-python = "==3.2.1"
+fpdf = "==1.7.2"
+idna = "==2.10"
+requests = "*"
+trafaret = "==2.0.2"
+urllib3 = "==1.25.11"
+flask = "*"
+wtforms = "*"
+graphviz = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
